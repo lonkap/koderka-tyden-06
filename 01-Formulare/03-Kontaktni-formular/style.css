@@ -9,3 +9,61 @@ body {
 
 /* ------------------------- */
 
+body
+{
+	background-color: rgb(129, 178, 226);
+	color: grey;
+}
+
+form
+{
+width: 100%;
+max-width: 400px;
+margin: 0 auto;
+background-color: white;
+padding: 30px;
+box-shadow: 0px 02px 10px rgb(77, 130, 180);
+}
+
+h1
+{
+	color: dodgerblue;
+	font-size: 25px;
+}
+
+.pole, .horizontalni
+{
+	margin-bottom: 20px;
+}
+
+.pole label
+{
+	display: block;
+}
+
+.pole input, .pole textarea, .pole select
+{
+	width: 100%;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 10px;
+	background-color: white;
+}
+
+button
+{
+	background-color: dodgerblue;
+	padding: 10px 15px;
+	border: 0;
+	border-radius: 4px;
+	color: white;
+	font-size: 16px;
+}
+
+button:hover
+{
+	background-color: rgb(23, 114, 205);
+	cursor: pointer;
+	
+}
